@@ -19,7 +19,7 @@ class HotelManagementSystem:
 
         lbling=Label(self.root,image=self.photoimg1,bd=4,relief=RIDGE)
         lbling.place(x=0,y=0,width=1550,height=200)
-    #logo
+    #logo below
 
         img2=Image.open (r"C:\Users\asus\Desktop\HOTEL_MANAGEMENT_SYSTEM\HOTEL_MANAGEMENT_SYSTEM\images\logo.jpeg")
         img2=img2.resize((235,175), Image. ANTIALIAS)
